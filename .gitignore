@@ -1,0 +1,42 @@
+# ===== 系统文件 =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ===== 编辑器 / IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== 环境变量（保留示例文件）=====
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ===== 依赖与构建产物（常见）=====
+node_modules/
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+dist/
+build/
+target/
+
+# ===== 其它临时文件 =====
+*.tmp
+*.temp
+.cache/
